@@ -4,19 +4,16 @@
   color: #fff;
 }
 
-/* Constrain only the header text */
 .features__header {
   text-align: center;
   margin-bottom: 2rem;
 }
 
-/* Fluid wrapper to clip any overshoot */
 .features__fluid {
   width: 100%;
   overflow-x: hidden;
 }
 
-/* Full-width grid inside that wrapper */
 .features-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

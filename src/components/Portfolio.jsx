@@ -12,7 +12,7 @@ import w9  from '../assets/work9.png';
 import w10 from '../assets/work10.png';
 import w11 from '../assets/work11.png';
 import w12 from '../assets/work12.png';
-import loadIcon from '../assets/loading.png'; // use your “Load More” arrow/spinner
+import loadIcon from '../assets/loading.png'; 
 
 const works = [
   w1, w4, w3, w10,

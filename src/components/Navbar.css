@@ -1,5 +1,5 @@
 .navbar {
-  background-color: var(--clr-cover-bg);
+  background-color: var(--clr-pricing-bg);
   border-bottom: 1px solid #222;
   position: sticky; top: 0; z-index: 100;
 }

@@ -1,11 +1,9 @@
-
 *,
 *::before,
 *::after {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
+
 
 html, body {
   margin: 0;
@@ -15,7 +13,6 @@ html, body {
 
 :root {
   --clr-navbar-bg:       rgba(49, 47, 47, 1);
-  --clr-cover-bg:       rgba(49, 47, 47, 1);
   --clr-brands-bg:      rgba(49, 47, 47, 1);
   --clr-process-bg:      rgba(49, 47, 47, 1);
   --clr-benefits-bg:      rgba(49, 47, 47, 1);
@@ -45,11 +42,6 @@ html, body {
 
 /* 3. Global Styles */
 body {
-  font-family: var(--ff-body);
-  font-size: var(--fs-base);
-  line-height: var(--lh-base);
-  color: var(--clr-dark);
-  background-color: var(--clr-light);
   min-height: 100vh;
 }
 

@@ -133,7 +133,6 @@
   font-size: 1.25rem;
 }
 
-/* 2) Facebook icon in red circle */
 .footer__social-link--fb {
   background: #d92f3b;
   width: 30px;
@@ -142,7 +141,7 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  margin-left: 0.75rem; /* match your spacing */
+  margin-left: 0.75rem;
 }
 .footer__social-link--fb img {
   width: 16px;
@@ -152,9 +151,8 @@
   margin-top: 5px;
 }
 
-/* Optional: keep the other icons as before */
 .footer__social a:not(.footer__social-link--fb) {
   margin-left: 0.75rem;
   opacity: 0.8;
 }
-/* ...and so on */
+

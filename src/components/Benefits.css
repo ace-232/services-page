@@ -1,5 +1,4 @@
 .benefits {
-  /* match your dark background */
   background-color: var(--clr-process-bg);
   padding: 4rem 0;
   color: #fff;
@@ -44,12 +43,10 @@
 }
 
 .benefits__btn {
-  /* ensure your primary red button styling applies */
   padding: 0.75rem 1.5rem;
   font-size: 1rem;
 }
 
-/* Utility: if you want the button full width on mobile */
 @media (max-width: 768px) {
   .benefits__btn {
     display: inline-block;

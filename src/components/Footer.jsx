@@ -1,9 +1,9 @@
 import React from 'react';
 import './Footer.css';
 
-import logo from '../assets/footer.png';       // your RoundDigital logo
-import iconEmail from '../assets/email.png';  // email icon
-import iconPhone from '../assets/phone.png';  // phone icon
+import logo from '../assets/footer.png';      
+import iconEmail from '../assets/email.png';  
+import iconPhone from '../assets/phone.png';  
 import iconFacebook from '../assets/f.png';
 import iconInstagram from '../assets/insta.png';
 import iconLinkedin from '../assets/linkedin.png';

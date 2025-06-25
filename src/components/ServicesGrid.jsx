@@ -1,6 +1,6 @@
 import React from 'react';
 import './ServicesGrid.css';
-import loadIcon from '../assets/loading.png'; // your spinner or arrow icon
+import loadIcon from '../assets/loading.png';
 
 const services = [
   'Web design & UI',

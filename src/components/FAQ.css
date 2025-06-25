@@ -113,10 +113,10 @@
 }
 
 .faq__icon-wrapper {
-  background: #d92f3b;         /* your red */
-  width: 32px;                 /* circle diameter */
+  background: #d92f3b;         
+  width: 32px;                 
   height: 32px;
-  border-radius: 50%;          /* perfect circle */
+  border-radius: 50%;          
   display: flex;
   align-items: center;
   justify-content: center;
@@ -130,5 +130,5 @@
   margin-bottom: 10px;
 }
 .faq {
-  padding-bottom: 130px;  /* plenty of space for the overlapping CTA */
+  padding-bottom: 130px; 
 }

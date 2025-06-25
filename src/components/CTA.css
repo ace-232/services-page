@@ -1,19 +1,16 @@
-/* This wrapper pulls the CTA up into the FAQ’s white area,
-   and simultaneously lets the footer slide up behind it */
+
 .cta‐wrapper {
   display: flex;
   justify-content: center;
   position: relative;
   z-index: 2;
-  /* adjust these to ~half your CTA height */
-  margin-top: -50px;    /* lifts CTA into FAQ */
-  margin-bottom: -120px; /* pulls footer up behind CTA */
+  margin-top: -50px;    
+  margin-bottom: -120px; 
 }
 
-/* Your CTA box itself */
 .cta {
-  background: #1f0c0c;           /* solid dark box */
-  max-width: 1209px;             /* match your design width */
+  background: #1f0c0c;          
+  max-width: 1209px;            
   width: 100%;
   border-radius: 12px;
   padding: 2rem 2rem;
@@ -52,7 +49,6 @@
 .cta__btn:hover {
   background: #c12734;
 }
-/* the dot icon inside the button */
 .cta__btn-icon {
   width: 20px;
   height: 16px;

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './FAQ.css';
-import arrowDown from '../assets/Icon-down.png'; // make sure this path is correct
+import arrowDown from '../assets/Icon-down.png'; 
 import arrowUp from '../assets/Icon-up.png';
 
 const faqs = [

@@ -1,12 +1,10 @@
 import React from 'react';
-import './TrustedBrands.css';
-
+import trustBanner from '../assets/trustbrand.png';
 import b1 from '../assets/Logomark1.png';
 import b2 from '../assets/Logomark2.png';
 import b3 from '../assets/Logomark3.png';
 import b4 from '../assets/Logomark4.png';
 import b5 from '../assets/Logomark5.png';
-import trustBanner from '../assets/trustbrand.png';
 
 export default function TrustedBrands() {
   const brands = [
@@ -18,25 +16,30 @@ export default function TrustedBrands() {
   ];
 
   return (
-    <section className="trusted-brands">
-      <div className="trusted-brands__inner">
-        {/* your single banner with the red bars + text baked in */}
+    <section className="bg-[#312F2F] py-16">
+      <div className="mx-auto max-w-6xl px-4 text-center">
+        {/* banner image with red bars + text baked in */}
         <img
           src={trustBanner}
           alt="Trusted by Amazing Brands"
-          className="trusted-brands__banner"
+          className="mx-auto mb-8 max-w-lg w-full"
         />
 
-        {/* logo + label side by side */}
-        <div className="brands-panel">
-        <div className="brands-inline">
+        {/* black pill background */}
+        <div className="inline-flex flex-nowrap items-center bg-[#1a1a1a] rounded-lg px-6 py-4 overflow-x-auto">
           {brands.map((b, i) => (
-            <div key={i} className="brand-item">
-              <img src={b.src} alt={b.label} className="brand-icon" />
-              <span className="brand-label">{b.label}</span>
+            <div
+              key={i}
+              className="flex flex-shrink-0 items-center gap-3 text-white"
+            >
+              <img
+                src={b.src}
+                alt={b.label}
+                className="w-10 h-10 object-contain"
+              />
+              <span className="font-medium">{b.label}</span>
             </div>
           ))}
-        </div>
         </div>
       </div>
     </section>

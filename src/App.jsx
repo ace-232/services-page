@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Navbar from './components/Navbar';
-import Cover from './components/Cover';
+import Hero from './components/Hero';
 import TrustedBrands from './components/TrustedBrands';
 import Process from './components/Process';
 import Benefits from './components/Benefits';
@@ -18,9 +18,9 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <>
+      <>
       <Navbar />
-      <Cover />
+      <Hero />
       <TrustedBrands />
       <Process />
       <Portfolio />
@@ -36,5 +36,4 @@ function App() {
     </>
   );
 }
-
 export default App;
