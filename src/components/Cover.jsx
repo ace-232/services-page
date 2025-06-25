@@ -2,8 +2,8 @@ import React from 'react';
 import './Cover.css';
 
 // big star for title, small for button
-import starLarge from '../assets/star.png';
-import starSmall from '../assets/star2.png';
+import starLarge from '../assets/Star.png';
+import starSmall from '../assets/Star2.png';
 
 export default function Cover() {
   return (
