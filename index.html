@@ -1,12 +1,26 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/services-page/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
-    <script type="module" crossorigin src="/services-page/assets/index-BJXh1msM.js"></script>
-    <link rel="stylesheet" crossorigin href="/services-page/assets/index-CidZxg3U.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Your App</title>
+    <!-- ↓ Add this: the official Tailwind CDN ↓ -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Optional: if you need to customize theme colors, you can configure here -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              cover: '#312F2F',
+            }
+          }
+        }
+      }
+    </script>
+    <!-- ↑ End Tailwind CDN setup ↑ -->
+    <script type="module" crossorigin src="/services-page/assets/index-CjCWy1Zv.js"></script>
+    <link rel="stylesheet" crossorigin href="/services-page/assets/index-Dj0vSoRq.css">
   </head>
   <body>
     <div id="root"></div>
