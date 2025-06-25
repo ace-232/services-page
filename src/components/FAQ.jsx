@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './FAQ.css';
-import arrowDown from '../assets/icon-down.png'; // make sure this path is correct
-import arrowUp from '../assets/icon-up.png';
+import arrowDown from '../assets/Icon-down.png'; // make sure this path is correct
+import arrowUp from '../assets/Icon-up.png';
 
 const faqs = [
   {
