@@ -1,0 +1,91 @@
+/* Section background & text */
+.process {
+  background-color: var(--clr-process-bg);
+  padding: 4rem 0;
+  text-align: center;
+  color: #fff;
+}
+
+/* Subheading & heading */
+.process-subheading {
+  display: block;
+  color: var(--clr-primary);
+  font-size: 0.875rem;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.5rem;
+}
+
+.process-heading {
+  font-size: var(--fs-xl);
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+
+.process-text {
+  max-width: 600px;
+  margin: 0 auto 2rem;
+  color: #ccc;
+}
+
+/* CTA button under heading */
+.process-cta {
+  margin-bottom: 3rem;
+}
+
+/* Flex‐row of icons + arrows */
+.process-flow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Each icon + text block */
+.process-node {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  max-width: 180px;
+}
+
+/* Red circle around each icon */
+.process-icon-circle {
+  background-color: var(--clr-primary);
+  border-radius: 50%;
+  padding: 1rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.process-icon {
+  width: 32px;
+  height: 32px;
+}
+
+/* Title & description under icon */
+.process-title {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.process-desc {
+  font-size: 0.875rem;
+  color: #ccc;
+  line-height: 1.4;
+}
+
+/* Arrow between nodes */
+.process-arrow {
+  width: 180px;
+  height: 80px;
+  object-fit: contain;
+}
+
+.process.container {
+  max-width: none;        /* ignore the global cap */
+  width: 100vw;           /* span full viewport width */
+  padding: 0;             /* if you want it flush to edges */
+  margin: 0;              /* override any centering */
+}

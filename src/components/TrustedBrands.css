@@ -1,0 +1,57 @@
+.trusted-brands {
+  background-color: var(--clr-brands-bg);
+  padding: 4rem 0;
+}
+
+.trusted-brands__inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* the combined “trusted by amazing brands” banner */
+.trusted-brands__banner {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin-bottom: 2rem;
+}
+
+/* NEW: wrap your logos/labels in this dark panel */
+.brands-panel {
+  display: inline-flex;        /* shrinkwrap to content width */
+  align-items: center;
+  background-color: #1a1a1a;    /* deep dark background */
+  border-radius: 12px;
+  padding: 0.75rem 1.5rem;      /* vertical/horizontal insets */
+  margin-top: 1rem;             /* space below banner */
+}
+
+/* row of brand logos + labels */
+.brands-inline {
+  display: flex;
+  align-items: center;
+  gap: 3rem;                    /* space between each item */
+}
+
+/* each icon + its text */
+.brand-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.brand-icon {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+.brand-label {
+  font-size: 1rem;
+  color: #fff;
+  white-space: nowrap;
+}

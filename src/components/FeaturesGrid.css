@@ -1,0 +1,65 @@
+.features {
+  background: var(--clr-process-bg);
+  padding: 4rem 0;
+  color: #fff;
+}
+
+/* Constrain only the header text */
+.features__header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* Fluid wrapper to clip any overshoot */
+.features__fluid {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* Full-width grid inside that wrapper */
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem 3rem;
+  width: 100vw;                   /* span viewport */
+  margin-left: calc((100% - 100vw) / 2);
+  margin-right: calc((100% - 100vw) / 2);
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+/* Responsive breakpoints */
+@media (max-width: 1024px) {
+  .features-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 600px) {
+  .features-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.feature-item {
+  text-align: left;
+}
+
+.feature-icon {
+  width: 32px;
+  height: 32px;
+  margin-bottom: 1rem;
+  object-fit: contain;
+}
+
+.feature-title {
+  margin: 0 0 0.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.feature-text {
+  margin: 0;
+  color: #ccc;
+  font-size: 0.875rem;
+  line-height: 1.5;
+}

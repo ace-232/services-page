@@ -1,0 +1,74 @@
+.cover {
+  position: relative;
+  background: var(--clr-process-bg);
+  padding: 6rem 1rem;
+  color: #fff;
+  overflow: hidden;
+}
+
+.cover__inner {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.cover__inner h1 {
+  font-size: 3rem;
+  line-height: 1.1;
+  margin-bottom: 1rem;
+}
+
+.cover__inner p {
+  margin-bottom: 2rem;
+  color: #ccc;
+}
+
+/* ====== big star near the title ====== */
+.cover__star-title {
+  position: absolute;
+  width: 80px;          /* adjust size as needed */
+  height: 80px;
+  top: 1rem;            /* distance from top of .cover */
+  right: 2rem;          /* distance from right edge */
+  pointer-events: none;
+}
+
+/* ====== button wrapper & small stars ====== */
+.cover__btn-wrap {
+  position: relative;
+  display: inline-block;  /* shrinkwrap to the button width */
+}
+
+/* small star styling */
+.cover__star-btn-left,
+.cover__star-btn-right {
+  position: absolute;
+  width: 16px;           /* adjust size */
+  height: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.cover__star-btn-left {
+  left: -24px;           /* tweak horizontal gap */
+}
+
+.cover__star-btn-right {
+  right: -24px;          /* tweak horizontal gap */
+}
+
+/* your existing button styles */
+.btn--primary {
+  background: #d92f3b;
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.btn--primary:hover {
+  background: #c12734;
+}

@@ -1,0 +1,75 @@
+.portfolio {
+  background-color: #fff;
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.portfolio-heading {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #111;
+  padding-top: 10px;
+}
+
+.portfolio-text {
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+/* Load More button */
+.portfolio-load-more {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 2.5rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid #ccc;
+  background: #fff;
+  color: #333;
+  font-size: 0.9rem;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+.portfolio-load-more:hover {
+  background: #f4f4f4;
+}
+.load-icon {
+  width: 16px;
+  height: 16px;
+  filter: brightness(0);
+}
+
+/* Masonry‐style grid (preserves natural image heights) */
+.portfolio-grid {
+  column-count: 4;
+  column-gap: 1rem;
+}
+.portfolio-item {
+  break-inside: avoid;
+  margin-bottom: 1rem;
+}
+.portfolio-item img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Responsive: fewer columns on tablet/mobile */
+@media (max-width: 1024px) {
+  .portfolio-grid { column-count: 3; }
+}
+@media (max-width: 768px) {
+  .portfolio-grid { column-count: 2; }
+}
+@media (max-width: 480px) {
+  .portfolio-grid { column-count: 1; }
+}
+
+.portfolio.container {
+  max-width: none;        /* ignore the global cap */
+  width: 100vw;           /* span full viewport width */
+  padding: 0;             /* if you want it flush to edges */
+  margin: 0;              /* override any centering */
+}

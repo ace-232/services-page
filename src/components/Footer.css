@@ -1,0 +1,160 @@
+.footer {
+  background: var(--clr-process-bg);
+  color: #fff;
+  padding-top: 3rem;
+  font-family: sans-serif;
+  padding-top: 200px;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Top section */
+.footer__top {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.footer__brand {
+  max-width: 480px;
+}
+
+.footer__logo {
+  width: 32px;
+  vertical-align: middle;
+}
+
+.footer__name {
+  font-weight: bold;
+  font-size: 1.25rem;
+  margin-left: 0.5rem;
+  vertical-align: middle;
+}
+
+.footer__desc {
+  margin-top: 1rem;
+  line-height: 1.5;
+  color: #ccc;
+}
+
+/* Contact & social */
+.footer__contact-social {
+  text-align: right;
+}
+
+.footer__contact {
+  margin-bottom: 1rem;
+}
+
+.footer__contact-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+  color: #ccc;
+}
+
+.footer__contact-icon {
+  width: 20px;
+}
+
+/* Social icons */
+.footer__social a {
+  display: inline-block;
+  margin-left: 0.75rem;
+  opacity: 0.8;
+  transition: opacity 0.2s;
+}
+
+.footer__social a:hover {
+  opacity: 1;
+}
+
+.footer__social img {
+  width: 20px;
+  height: 20px;
+}
+
+/* Divider */
+.footer__divider {
+  border: none;
+  border-top: 1px solid #444;
+  margin: 2rem 0 1.5rem;
+}
+
+/* Bottom nav & copyright */
+.footer__bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding-bottom: 2rem;
+  margin-bottom: 40px;
+}
+
+.footer__nav {
+  list-style: none;
+  margin-bottom: 20px;
+  padding: 0;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.footer__nav a {
+  color: #ccc;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.footer__nav a:hover {
+  color: #fff;
+}
+
+.footer__copy {
+  color: #666;
+  font-size: 0.875rem;
+  margin-bottom: 20px;
+}
+/* 1) Logo + name inline */
+.footer__logo-brand {
+  display: flex;
+  align-items: center;
+}
+.footer__name {
+  margin-left: 0.5rem;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+/* 2) Facebook icon in red circle */
+.footer__social-link--fb {
+  background: #d92f3b;
+  width: 30px;
+  height: 24px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0.75rem; /* match your spacing */
+}
+.footer__social-link--fb img {
+  width: 16px;
+  height: 16px;
+  padding: 1px;
+  margin-left: 7px;
+  margin-top: 5px;
+}
+
+/* Optional: keep the other icons as before */
+.footer__social a:not(.footer__social-link--fb) {
+  margin-left: 0.75rem;
+  opacity: 0.8;
+}
+/* ...and so on */

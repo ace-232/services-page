@@ -1,0 +1,154 @@
+.pricing {
+  background-color: var(--clr-pricing-bg);     /* your dark page bg */
+  color: #fff;
+  padding: 4rem 0;
+}
+
+/* Header */
+.pricing__header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.pricing__label {
+  color: #d92f3b;
+  letter-spacing: 0.1em;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+.pricing__title {
+  font-size: 2rem;
+  margin: 0 0 1rem;
+}
+.pricing__subtitle {
+  color: #ccc;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+/* Grid */
+.pricing__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 2rem;
+  padding: 40px 10rem;
+}
+
+/* Card */
+.pricing__card {
+  border: 1px solid #d92f3b;
+  border-radius: 12px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  position: relative;
+}
+
+/* Plan header + badge */
+.pricing__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.pricing__plan {
+  margin: 0;
+  font-size: 1.25rem;
+}
+.pricing__badge {
+  padding: 0.25rem 0.75rem;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+}
+.pricing__badge--primary {
+  background: #d92f3b;
+  color: #fff;
+}
+.pricing__badge--secondary {
+  background: #fff;
+  color: #222;
+  border: 1px solid #ddd;
+}
+
+/* Divider */
+.pricing__divider {
+  border: 0;
+  border-top: 1px solid #d92f3b;
+  margin: 0.5rem 0;
+}
+
+/* Price */
+.pricing__cost {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+}
+.pricing__price {
+  color: #d92f3b;
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+/* subtitle styling below the price */
+.pricing__period {
+  color: #ccc;
+  font-size: 0.85rem;
+  margin: 0.25rem 0 1rem;
+  display: block;
+}
+
+/* Features list */
+.pricing__features {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  flex-grow: 1;        /* push buttons to bottom */
+}
+.pricing__features li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0.5rem 0;
+  font-size: 0.875rem;
+  color: #ccc;
+}
+.pricing__icon {
+  width: 16px;
+  height: 16px;
+}
+
+/* Buttons */
+.pricing__btn-call,
+.pricing__btn-buy {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 0.9rem;
+  border-radius: 6px;
+  cursor: pointer;
+  border: none;
+  margin-top: 0.5rem;
+}
+
+.pricing__btn-call {
+  background: transparent;
+  color: #fff;
+  border: 1px solid rgba(225, 66, 66, 1)
+}
+
+.pricing__btn-buy {
+  background: #d92f3b;
+  color: #fff;
+}
+
+/* Make the outline button lighten on hover */
+.pricing__btn-call:hover {
+  background: rgba(255,255,255,0.1);
+}
+.pricing__description {
+  color: #ccc;
+  font-size: 0.9rem;
+  margin: 0.5rem 0 1rem;
+  line-height: 1.4;
+}
+
