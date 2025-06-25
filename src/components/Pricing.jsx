@@ -1,6 +1,6 @@
 import React from 'react';
 import './Pricing.css';
-import plusIcon from '../assets/star-solid.png';
+import plusIcon from '../assets/Star-solid.png';
 
 // Note: we’ve added a `description` field to each plan here
 const plans = [
